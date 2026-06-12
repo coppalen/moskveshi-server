@@ -1,0 +1,18 @@
+{
+  "name": "moskveshi-server",
+  "version": "1.0.0",
+  "description": "Серверный демо-магазин москвещи: пользователи, товары, баланс, заявки, заказы, админ-панель и Telegram-уведомления.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
